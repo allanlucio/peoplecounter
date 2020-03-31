@@ -12,21 +12,27 @@ void main() {
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              FlatButton(
-                child: Text(
-                  "+1",
-                  style: TextStyle(fontSize: 40, color: Colors.white),
+              Padding(
+                padding: EdgeInsets.all(10.0),
+                child: FlatButton(
+                  child: Text(
+                    "+1",
+                    style: TextStyle(fontSize: 40, color: Colors.white),
+                  ),
+                  onPressed: () => {},
                 ),
-                onPressed: () => {},
               ),
-              FlatButton(
-            child: Text(
-              "-1",
-              style: TextStyle(fontSize: 40, color: Colors.white),
+              Padding(
+                padding: EdgeInsets.all(10.0),
+                child: FlatButton(
+                  child: Text(
+                    "-1",
+                    style: TextStyle(fontSize: 40, color: Colors.white),
+                  ),
+                  onPressed: () => {},
+                ),
+              ),
               
-            ),
-            onPressed: ()=>{},
-          ),
             ],
           ),
           Text("Pode Entrar",
